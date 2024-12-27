@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Section Attendance | @alvinson19</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Attendance Management System</h1>
+        <p>Coded with ❤ by Alvin [& Claude AI 🤭]. All Rights Reserved</p>
+    </header>
+    <main>
+        <div class="container">
+            <div id="attendanceSystem">
+                <div class="date-time">
+                    <span id="datetime"></span>
+                </div>
+                <div class="attendance-container">
+                    <div class="attendance-header">
+                        <span>Subject: <input type="text" id="subject"></span>
+                    </div>
+                    <ul id="studentList" class="student-list">
+                        <!-- Student list will be generated here -->
+                    </ul>
+                    <button onclick="generateReport()">Generate Report</button>
+                </div>
+                <div id="reportContainer" class="report-container">
+                    <textarea id="reportText" rows="10" readonly></textarea>
+                    <button class="copy-report-button" onclick="copyReport()">Copy Report</button>
+                    <button class="save-report-button" onclick="saveReportAsImage()">Save Report</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
