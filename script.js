@@ -69,7 +69,7 @@ var students = [
     { usn: "LE", name: "DARSHAN C" },
     { usn: "LE", name: "DARSHAN CHIKANNA" },
     { usn: "COB", name: "V PRAJWAL" },
-    { usn: "COB", name: "MEGHA" }
+    { usn: "COC", name: "MYTHRI" }
 ];
 
 function updateTime() {
